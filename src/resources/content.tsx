@@ -4,7 +4,7 @@ import { Line, Row, Text } from "@once-ui-system/core";
 const person: Person = {
   firstName: "Prathamesh",
   lastName: "Hedau",
-  name: `Prathamesh Hedau`,
+  name: "Prathamesh Hedau",
   role: "AI Engineer",
   avatar: "/images/avatar.jpg",
   email: "prathamesh0404@gmail.com",
@@ -13,7 +13,7 @@ const person: Person = {
 };
 
 const newsletter: Newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: <>My weekly newsletter about creativity and engineering</>,
 };
@@ -25,7 +25,7 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/Hedau0404",
     essential: true,
   },
   {
@@ -41,9 +41,9 @@ const social: Social = [
     essential: false,
   },
   {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    name: "X (Twitter)",
+    icon: "twitter",
+    link: "https://x.com/HedauPrathamesh",
     essential: true,
   },
   {
@@ -60,7 +60,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building AI systems powered by Machine learning and LLMs</>,
   featured: {
     display: true,
     title: (
@@ -76,7 +76,9 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Prathamesh, an AI engineer focused on building machine learning systems,
+    RAG pipelines, and intelligent applications using Python,
+    FastAPI, and modern LLM frameworks.
 </>
   ),
 };
@@ -94,7 +96,7 @@ const about: About = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -102,14 +104,13 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Prathamesh Hedau is a Pune-based AI engineer with a passion for building intelligent
+    systems using machine learning and large language models.
       </>
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Work Experience",
     experiences: [
       {
@@ -117,14 +118,7 @@ const about: About = {
         timeframe: "2022 - Present",
         role: "Senior Design Engineer",
         achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
+           
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
@@ -141,14 +135,7 @@ const about: About = {
         timeframe: "2018 - 2022",
         role: "Lead Designer",
         achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+          
         ],
         images: [],
       },
@@ -159,13 +146,10 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of Mumbai",
+        description: <>Bachelor's Degree in Electronics and Telecommunication</>,
       },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
+      
     ],
   },
   technical: {
