@@ -60,7 +60,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building AI systems powered by Machine learning and LLMs</>,
+  headline: <>Engineering Intelligence Into Applications</>,
   featured: {
     display: true,
     title: (
@@ -76,9 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Prathamesh, an AI engineer focused on building machine learning systems,
-    RAG pipelines, and intelligent applications using Python,
-    FastAPI, and modern LLM frameworks.
+    I'm Prathamesh, an AI engineer building practical machine learning and LLM systems. I work on retrieval-augmented generation, model serving, and end-to-end AI infrastructure.
 </>
   ),
 };
